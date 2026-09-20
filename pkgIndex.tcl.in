@@ -1,0 +1,2 @@
+package ifneeded lmdbxx @PROJECT_VERSION@ \
+    [list load [file join $dir lmdbxx[info sharedlibextension]] lmdbxx]
