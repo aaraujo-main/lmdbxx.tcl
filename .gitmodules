@@ -4,3 +4,6 @@
 [submodule "lmdbxx"]
 	path = lmdbxx
 	url = git@github.com:aaraujo-main/lmdbxx.git
+[submodule "tclxx"]
+	path = tclxx
+	url = git@github.com:aaraujo-main/tclxx.git
