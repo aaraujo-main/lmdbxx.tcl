@@ -2,6 +2,18 @@
 
 `lmdbxx.tcl` is a compact Tcl interface to LMDB. Built on vendored LMDB, header-only `lmdb++`, and `tclxx`, it offers shared environment and database handles, scoped read/write transactions, binary-safe CRUD, batch access, ordered iteration, and LMDB flag constants. `tclxx` handles C++ object conversion and shared ownership.
 
+## Contents
+
+- [Compact API](#compact-api)
+- [Quickstart](#quickstart)
+- [Commands](#commands)
+- [Requirements](#requirements)
+- [Build](#build)
+- [Tests](#tests)
+- [Demos](#demos)
+- [Benchmark](#benchmark)
+- [License](#license)
+
 ## Compact API
 
 ```tcl
